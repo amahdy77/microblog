@@ -1,7 +1,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
-	/*background: linear-gradient(90deg,#48536D,#000000);*/
-	background-image: url("background.jpg");
+	background: linear-gradient(90deg,#48536D,#000000);
+	background-image: url("../assets/background.jpg");
 	background-position: center;
 	background-size: cover
 }
@@ -30,7 +30,7 @@ label {
 	float: left;
 	text-align: right;
 	margin-right: 0em;
-	width: 14em;
+	width: 7em;
 }
 
 input{
@@ -53,10 +53,18 @@ input[type=submit] {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	margin-top: 3em;
-	margin-left: 15em;
+	margin-left: 10em;
 }
 
 input:focus {
       background: #A4FAF0;  
+}
+
+.signedup{
+	font-size: 8em;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-top: .2em;
 }
 
